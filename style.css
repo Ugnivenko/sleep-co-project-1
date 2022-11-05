@@ -1,18 +1,19 @@
+/* colors
+yellow rgb(237, 188, 10) 
+Navy #192B37 
+*/
 * {
     margin: 0;
     padding: 0;
     box-sizing:border-box;
 }
 /*----------- temporery styles for structural html------------ */
-* {
-padding: 0.5rem;
-border: 1px solid rgb(240,240,240);
+section {
+    border: 1px solid rgb(240,240,240);
 }
 body {
-    border: none;
-}
-html {
-    border: none;
+    font-family: 'Catamaran', sans serif;
+    color: #192B37;
 }
 /* Image styles */
 .bg-image {
@@ -20,7 +21,7 @@ html {
     background-size: cover;
     min-height: 10rem;
 }
-/* Universal styles & Utility classes */
+/*---- Universal styles & Utility classes -----*/
 .padded {
     padding: 5%;
 }
@@ -30,4 +31,70 @@ html {
 .bg-dark {
     background-color: #192B37; 
     color: white;
+}
+
+.text-left   {text-align: left;}
+.text-center {text-align: center;}
+.text-right  {text-align: right;}
+
+/* ----------- Typography Styles ---------------- */
+.font-weight-light {font-weight: 200;}
+.font-weight-normal {font-weight: normal;}
+.font-weight-extra-bold {font-weight: 800;}
+
+.tall-50 {min-height: 50vh;}
+.tall-60 {min-height: 60vh;}
+.tall-70 {min-height: 70vh;}
+.tall-80 {min-height: 80vh;}
+.tall-90 {min-height: 90vh;}
+.tall-100 {min-height: 100vh;}
+
+.featured-text {color: rgb(237, 188, 10)}
+.white-text { color: white}
+
+small-text
+.small-text { font-size: 1.5rem;}
+.big-text { font-size: 4.5rem;}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+h3 {
+    line-height: 1;
+}
+p { font-weight: 200;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ------------------------------- Header Styles ----------------------------*/
+header {
+    background-image: url('/images/sleep-co-bed.jpg');
+    background-size: cover;
+    background-position: center;
+}
+header h3 {
+    font-size: 5.5rem;
+    line-height: 1;
+}
+/* ---------------------Background Images --------------------- */
+.bg-bed { background-image: url('/images/sleep-co-3.jpg');
+    background-position: 50% 35%;}
+.bg-pug { background-image: url('/images/sleep-co-pug.jpg');
+    background-position: 50% 35%;}
+.bg-yellow { background-image: url('/images/sleep-co-yellow.jpg')
+    background-position: 50% 51%;}
+
+/* ---- Icon Grid ---- */
+.fas {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
 }
