@@ -22,12 +22,10 @@ body {
     min-height: 10rem;
 }
 /*---- Universal styles & Utility classes -----*/
-.padded {
-    padding: 5%;
-}
-.padded-sm {
-    padding: 1rem;
-}
+.padded { padding: 5%;}
+.padded-sm { padding: 1rem;}
+.padded-lg { padding: 10%;}
+
 .bg-dark {
     background-color: #192B37; 
     color: white;
@@ -49,12 +47,23 @@ body {
 .tall-90 {min-height: 90vh;}
 .tall-100 {min-height: 100vh;}
 
-.featured-text {color: rgb(237, 188, 10)}
+.featured-text {color: rgb(237, 188, 10);}
 .white-text { color: white}
 
-small-text
 .small-text { font-size: 1.5rem;}
+.medium-text { 
+    font-size: 2rem;
+    line-height: 1;}
 .big-text { font-size: 4.5rem;}
+
+.subtitle { 
+    font-size: 1.2rem;
+    color: rgb(120,120,125);}
+.quote-icon { 
+    font-size: 6rem;
+    display: inline-block;
+    color: rgb(120,120,125);
+    line-height: 1;}
 
 h2 {
     font-size: 2.5rem;
@@ -71,6 +80,12 @@ p { font-weight: 200;
 p:last-child {
     margin-bottom: 0;
 }
+a { 
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+a:hover { color:rgb(237, 188, 10);}
 
 
 /* ------------------------------- Header Styles ----------------------------*/
@@ -88,7 +103,7 @@ header h3 {
     background-position: 50% 35%;}
 .bg-pug { background-image: url('/images/sleep-co-pug.jpg');
     background-position: 50% 35%;}
-.bg-yellow { background-image: url('/images/sleep-co-yellow.jpg')
+.bg-yellow { background-image: url('/images/sleep-co-yellow.jpg');
     background-position: 50% 51%;}
 
 /* ---- Icon Grid ---- */
@@ -98,3 +113,5 @@ header h3 {
     margin-bottom: 2rem;
     font-size: 3rem;
 }
+/* --------Footer--------- */
+footer a { border: none;}
