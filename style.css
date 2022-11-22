@@ -15,6 +15,22 @@ body {
     font-family: 'Catamaran', sans serif;
     color: #192B37;
 }
+/* ------------- Nav Bar / Page Links ---------- */
+.nav-pages a {
+    background-color: #192B37;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    margin-right: 0.2rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    border: 1px solid;
+}
+.no-border {
+    border: inherit;
+}
+
 /* Image styles */
 .bg-image {
     background-image: url(/images/sleep-co-3.jpg);
@@ -25,6 +41,7 @@ body {
 .padded { padding: 5%;}
 .padded-sm { padding: 1rem;}
 .padded-lg { padding: 10%;}
+.padded-05 { padding: 0.5rem;}
 
 .bg-dark {
     background-color: #192B37; 
