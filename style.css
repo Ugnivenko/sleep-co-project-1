@@ -21,10 +21,10 @@ body {
     color: white;
     text-decoration: none;
     display: inline-block;
-    padding: 0.2rem 0.5rem;
-    margin-right: 0.2rem;
+    padding: 0.1rem 0.4rem;
+    margin-right: 0.1rem;
     font-size: 1rem;
-    margin-top: 0.5rem;
+    margin-top: 0.2rem;
     border: 1px solid;
 }
 .no-border {
@@ -122,6 +122,7 @@ header h3 {
     background-position: 50% 35%;}
 .bg-yellow { background-image: url('/images/sleep-co-yellow.jpg');
     background-position: 50% 51%;}
+.bg-welcome { background-image: url('/images/sleep-co-welcome.jpg');}    
 
 /* ---- Icon Grid ---- */
 .fas {
