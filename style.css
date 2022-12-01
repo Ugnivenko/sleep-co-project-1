@@ -73,6 +73,8 @@ body {
     line-height: 1;}
 .big-text { font-size: 4.5rem;}
 
+.text-bottom {padding-top: 20%;}
+
 .subtitle { 
     font-size: 1.2rem;
     color: rgb(120,120,125);}
